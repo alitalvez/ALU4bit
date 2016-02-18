@@ -1,0 +1,109 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : a_drc.vf
+// /___/   /\     Timestamp : 02/10/2016 02:43:57
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog a_drc.vf -w "C:/Users/Gabriel Santos/ULA/a.sch"
+//Design Name: a
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module OR6_MXILINX_a(I0, 
+                     I1, 
+                     I2, 
+                     I3, 
+                     I4, 
+                     I5, 
+                     O);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input I4;
+    input I5;
+   output O;
+   
+   wire I35;
+   
+   OR4  I_36_87 (.I0(I0), 
+                .I1(I1), 
+                .I2(I2), 
+                .I3(I35), 
+                .O(O));
+   OR3  I_36_88 (.I0(I3), 
+                .I1(I4), 
+                .I2(I5), 
+                .O(I35));
+endmodule
+`timescale 1ns / 1ps
+
+module a(A, 
+         B, 
+         C, 
+         D, 
+         E, 
+         aOut);
+
+    input A;
+    input B;
+    input C;
+    input D;
+    input E;
+   output aOut;
+   
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_23;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   OR6_MXILINX_a  XLXI_1 (.I0(XLXN_4), 
+                         .I1(XLXN_5), 
+                         .I2(XLXN_6), 
+                         .I3(XLXN_7), 
+                         .I4(XLXN_8), 
+                         .I5(A), 
+                         .O(aOut));
+   AND2  XLXI_2 (.I0(XLXN_26), 
+                .I1(XLXN_23), 
+                .O(XLXN_8));
+   AND2  XLXI_3 (.I0(D), 
+                .I1(XLXN_27), 
+                .O(XLXN_7));
+   AND2  XLXI_4 (.I0(D), 
+                .I1(XLXN_26), 
+                .O(XLXN_6));
+   AND2  XLXI_5 (.I0(B), 
+                .I1(XLXN_23), 
+                .O(XLXN_5));
+   AND3  XLXI_6 (.I0(C), 
+                .I1(E), 
+                .I2(XLXN_28), 
+                .O(XLXN_4));
+   INV  XLXI_7 (.I(C), 
+               .O(XLXN_23));
+   INV  XLXI_8 (.I(E), 
+               .O(XLXN_26));
+   INV  XLXI_9 (.I(B), 
+               .O(XLXN_27));
+   INV  XLXI_10 (.I(D), 
+                .O(XLXN_28));
+endmodule

@@ -1,0 +1,14 @@
+vhdtdtfi -lib work Mux41.vhd -prj ULA -o Mux41.spl -module Mux41 -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl Mux41.spl {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mux41_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mux41.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mux41 {C:/Users/Gabriel Santos/ULA/Mux41.sch} {C:/Users/Gabriel Santos/ULA/Mux41.sym} 

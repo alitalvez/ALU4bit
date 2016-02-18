@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : AndGate_drc.vf
+// /___/   /\     Timestamp : 02/08/2016 23:35:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog AndGate_drc.vf -w "C:/Users/Gabriel Santos/ULA/AndGate.sch"
+//Design Name: AndGate
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module AndGate(A, 
+               B, 
+               S);
+
+    input [3:0] A;
+    input [3:0] B;
+   output [3:0] S;
+   
+   
+   AND2  XLXI_2 (.I0(B[0]), 
+                .I1(A[0]), 
+                .O(S[0]));
+   AND2  XLXI_3 (.I0(B[1]), 
+                .I1(A[1]), 
+                .O(S[1]));
+   AND2  XLXI_4 (.I0(B[2]), 
+                .I1(A[2]), 
+                .O(S[2]));
+   AND2  XLXI_5 (.I0(B[3]), 
+                .I1(A[3]), 
+                .O(S[3]));
+endmodule

@@ -1,0 +1,38 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : h_drc.vf
+// /___/   /\     Timestamp : 02/10/2016 02:44:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog h_drc.vf -w "C:/Users/Gabriel Santos/ULA/h.sch"
+//Design Name: h
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module h(A, 
+         B, 
+         hOut);
+
+    input A;
+    input B;
+   output hOut;
+   
+   wire XLXN_1;
+   
+   AND2  XLXI_1 (.I0(B), 
+                .I1(XLXN_1), 
+                .O(hOut));
+   INV  XLXI_2 (.I(A), 
+               .O(XLXN_1));
+endmodule

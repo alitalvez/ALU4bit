@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family xa9500xl -refsym d {C:/Users/Gabriel Santos/ULA/d.sch} {C:/Users/Gabriel Santos/ULA/d.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog d_drc.vf -w {C:/Users/Gabriel Santos/ULA/d.sch} 

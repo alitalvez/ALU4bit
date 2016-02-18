@@ -1,0 +1,4 @@
+vhdtdtfi -lib work XorGate.vhd -prj ULA -o XorGate.spl -module XorGate -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl XorGate.spl {C:/Users/Gabriel Santos/ULA/XorGate.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym XorGate {C:/Users/Gabriel Santos/ULA/XorGate.sch} {C:/Users/Gabriel Santos/ULA/XorGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog XorGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/XorGate.sch} 

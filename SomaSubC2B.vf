@@ -1,0 +1,138 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SomaSubC2B.vf
+// /___/   /\     Timestamp : 02/07/2016 06:16:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xa9500xl -verilog "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vf" -w "C:/Users/Gabriel Santos/ULA/SomaSubC2B.sch"
+//Design Name: SomaSubC2B
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FA_MUSER_SomaSubC2B(a, 
+                           b, 
+                           ci, 
+                           cout, 
+                           s);
+
+    input a;
+    input b;
+    input ci;
+   output cout;
+   output s;
+   
+   wire XLXN_2;
+   wire XLXN_4;
+   wire XLXN_5;
+   
+   AND2  XLXI_3 (.I0(ci), 
+                .I1(XLXN_2), 
+                .O(XLXN_4));
+   AND2  XLXI_4 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_5));
+   AND2  XLXI_5 (.I0(XLXN_5), 
+                .I1(XLXN_4), 
+                .O(cout));
+   XOR2  XLXI_6 (.I0(ci), 
+                .I1(XLXN_2), 
+                .O(s));
+   XOR2  XLXI_7 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_2));
+endmodule
+`timescale 1ns / 1ps
+
+module SomaSubC2B(A, 
+                  B, 
+                  S0, 
+                  S1, 
+                  overflow, 
+                  S);
+
+    input [3:0] A;
+    input [3:0] B;
+    input S0;
+    input S1;
+   output overflow;
+   output [3:0] S;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_14;
+   wire XLXN_41;
+   wire XLXN_43;
+   wire XLXN_68;
+   wire XLXN_70;
+   wire XLXN_75;
+   wire XLXN_78;
+   wire XLXN_82;
+   wire XLXN_83;
+   wire XLXN_121;
+   wire XLXN_122;
+   wire XLXN_133;
+   
+   FA_MUSER_SomaSubC2B  XLXI_2 (.a(XLXN_41), 
+                               .b(XLXN_14), 
+                               .ci(XLXN_133), 
+                               .cout(XLXN_1), 
+                               .s(S[0]));
+   FA_MUSER_SomaSubC2B  XLXI_3 (.a(XLXN_68), 
+                               .b(XLXN_70), 
+                               .ci(XLXN_1), 
+                               .cout(XLXN_2), 
+                               .s(S[1]));
+   FA_MUSER_SomaSubC2B  XLXI_4 (.a(XLXN_75), 
+                               .b(XLXN_78), 
+                               .ci(XLXN_2), 
+                               .cout(XLXN_121), 
+                               .s(S[2]));
+   FA_MUSER_SomaSubC2B  XLXI_5 (.a(XLXN_83), 
+                               .b(XLXN_82), 
+                               .ci(XLXN_121), 
+                               .cout(XLXN_122), 
+                               .s(S[3]));
+   AND2  XLXI_7 (.I0(A[0]), 
+                .I1(XLXN_43), 
+                .O(XLXN_41));
+   XOR2  XLXI_9 (.I0(B[0]), 
+                .I1(XLXN_133), 
+                .O(XLXN_14));
+   INV  XLXI_10 (.I(S1), 
+                .O(XLXN_43));
+   AND2  XLXI_27 (.I0(A[1]), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_68));
+   AND2  XLXI_28 (.I0(A[2]), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_75));
+   AND2  XLXI_29 (.I0(A[3]), 
+                 .I1(XLXN_43), 
+                 .O(XLXN_83));
+   XOR2  XLXI_30 (.I0(XLXN_133), 
+                 .I1(B[1]), 
+                 .O(XLXN_70));
+   XOR2  XLXI_31 (.I0(XLXN_133), 
+                 .I1(B[2]), 
+                 .O(XLXN_78));
+   XOR2  XLXI_32 (.I0(XLXN_133), 
+                 .I1(B[3]), 
+                 .O(XLXN_82));
+   XOR2  XLXI_33 (.I0(XLXN_121), 
+                 .I1(XLXN_122), 
+                 .O(overflow));
+   OR2  XLXI_34 (.I0(S0), 
+                .I1(S1), 
+                .O(XLXN_133));
+endmodule

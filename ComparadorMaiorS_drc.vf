@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ComparadorMaiorS_drc.vf
+// /___/   /\     Timestamp : 02/08/2016 23:35:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog ComparadorMaiorS_drc.vf -w "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.sch"
+//Design Name: ComparadorMaiorS
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ComparadorMaiorS(A, 
+                        B, 
+                        Cin, 
+                        Comp);
+
+    input A;
+    input B;
+    input Cin;
+   output Comp;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_31;
+   
+   AND2  XLXI_1 (.I0(Cin), 
+                .I1(XLXN_31), 
+                .O(XLXN_2));
+   AND2  XLXI_2 (.I0(B), 
+                .I1(XLXN_31), 
+                .O(XLXN_3));
+   AND2  XLXI_3 (.I0(B), 
+                .I1(Cin), 
+                .O(XLXN_4));
+   OR3  XLXI_4 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .I2(XLXN_2), 
+               .O(Comp));
+   INV  XLXI_5 (.I(A), 
+               .O(XLXN_31));
+endmodule

@@ -1,0 +1,4 @@
+vhdl isim_temp "ComparadorMaiorS.vhd"
+vhdl isim_temp "ComparadorMaior.vhd"
+vhdl isim_temp "TestComMaior.vhd"
+verilog isim_temp "C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v"

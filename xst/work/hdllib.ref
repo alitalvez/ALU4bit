@@ -1,0 +1,67 @@
+EN equals NULL "C:/Users/Gabriel Santos/ULA/Equals.vhd" sub00/vhpl12 1455541659
+MO AndGate_MUSER_ULA NULL ULA.vf vlg6C/_and_gate___m_u_s_e_r___u_l_a.bin 1454982240
+AR comparadormaior comparadormaiorarchitecture "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" sub00/vhpl05 1455541700
+EN display NULL "C:/Users/Gabriel Santos/ULA/Display.vhd" sub00/vhpl44 1455541695
+MO ComparadorMaior_MUSER_ComparadorMaiorCompleto NULL ComparadorMaiorCompleto.vf vlg25/_comparador_maior___m_u_s_e_r___comparador_maior_completo.bin 1455541659
+AR andgate andgatearchitecture "C:/Users/Gabriel Santos/ULA/AndGate.vhd" sub00/vhpl09 1455541684
+AR mux41 mux41architecture "C:/Users/Gabriel Santos/ULA/Mux41.vhd" sub00/vhpl21 1455541688
+AR b barchitecture "C:/Users/Gabriel Santos/ULA/b.vhd" sub00/vhpl31 1455541668
+MO EqualsGate_MUSER_ULA NULL ULA.vf vlg5C/_equals_gate___m_u_s_e_r___u_l_a.bin 1454982240
+EN fa NULL "C:/Users/Gabriel Santos/ULA/FA.vhd" sub00/vhpl00 1455541663
+AR somasubc2b somasubc2barchitecture "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" sub00/vhpl03 1455541682
+MO FA NULL FA.vf vlg1F/_f_a.bin 1454832596
+MO ComparadorMaior_MUSER_ULA NULL ULA.vf vlg70/_comparador_maior___m_u_s_e_r___u_l_a.bin 1454982240
+MO ComparadorMaiorS_MUSER_ULA NULL ULA.vf vlg3B/_comparador_maior_s___m_u_s_e_r___u_l_a.bin 1454982240
+EN equalsgate NULL "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" sub00/vhpl14 1455541689
+AR g garchitecture "C:/Users/Gabriel Santos/ULA/g.vhd" sub00/vhpl41 1455541678
+MO FA_MUSER_ULA NULL ULA.vf vlg13/_f_a___m_u_s_e_r___u_l_a.bin 1454982240
+AR equals equalsarchitecture "C:/Users/Gabriel Santos/ULA/Equals.vhd" sub00/vhpl13 1455541660
+EN xorgate NULL "C:/Users/Gabriel Santos/ULA/XorGate.vhd" sub00/vhpl10 1455541685
+AR comparadormaiors comparadormaiorsarchitecture "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" sub00/vhpl27 1455541702
+MO ULA NULL ULA.vf vlg0A/_u_l_a.bin 1454982240
+EN comparadormaiorcompleto NULL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vhd" sub00/vhpl06 1454976435
+MO ComparadorMaiorCompleto NULL ComparadorMaiorCompleto.vf vlg1F/_comparador_maior_completo.bin 1455541659
+AR d darchitecture "C:/Users/Gabriel Santos/ULA/d.vhd" sub00/vhpl35 1455541672
+EN comparadormaior NULL "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" sub00/vhpl04 1455541699
+MO XorGate_MUSER_ULA NULL ULA.vf vlg0E/_xor_gate___m_u_s_e_r___u_l_a.bin 1454982240
+MO Mut_MUSER_ULA NULL ULA.vf vlg1E/_mut___m_u_s_e_r___u_l_a.bin 1454982240
+EN ula NULL "C:/Users/Gabriel Santos/ULA/ULA.vhd" sub00/vhpl22 1455541693
+AR comparadormenor comparadormenorarchitecture "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" sub00/vhpl17 1455541692
+AR ula ulaarchitecture "C:/Users/Gabriel Santos/ULA/ULA.vhd" sub00/vhpl23 1455541694
+MO Mux41_MUSER_ULA NULL ULA.vf vlg1F/_mux41___m_u_s_e_r___u_l_a.bin 1454982240
+MO ComparadorMenor_MUSER_ULA NULL ULA.vf vlg59/_comparador_menor___m_u_s_e_r___u_l_a.bin 1454982240
+EN a NULL "C:/Users/Gabriel Santos/ULA/a.vhd" sub00/vhpl28 1455541665
+AR a aarchitecture "C:/Users/Gabriel Santos/ULA/a.vhd" sub00/vhpl29 1455541666
+EN b NULL "C:/Users/Gabriel Santos/ULA/b.vhd" sub00/vhpl30 1455541667
+EN c NULL "C:/Users/Gabriel Santos/ULA/c.vhd" sub00/vhpl32 1455541669
+MO ComparadorMaiorCompleto_MUSER_ULA NULL ULA.vf vlg13/_comparador_maior_completo___m_u_s_e_r___u_l_a.bin 1454982240
+EN d NULL "C:/Users/Gabriel Santos/ULA/d.vhd" sub00/vhpl34 1455541671
+EN e NULL "C:/Users/Gabriel Santos/ULA/e.vhd" sub00/vhpl36 1455541673
+EN f NULL "C:/Users/Gabriel Santos/ULA/f.vhd" sub00/vhpl38 1455541675
+EN g NULL "C:/Users/Gabriel Santos/ULA/g.vhd" sub00/vhpl40 1455541677
+EN somasubc2b NULL "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" sub00/vhpl02 1455541681
+EN h NULL "C:/Users/Gabriel Santos/ULA/h.vhd" sub00/vhpl42 1455541679
+AR equalsgate behavioral "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" sub00/vhpl15 1455541690
+EN comparadormaiors NULL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" sub00/vhpl26 1455541701
+AR f farchitecture "C:/Users/Gabriel Santos/ULA/f.vhd" sub00/vhpl39 1455541676
+EN comparadormenor NULL "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" sub00/vhpl16 1455541691
+MO SomaSubC2B_MUSER_ULA NULL ULA.vf vlg19/_soma_sub_c2_b___m_u_s_e_r___u_l_a.bin 1454982240
+MO Equals_MUSER_ULA NULL ULA.vf vlg27/_equals___m_u_s_e_r___u_l_a.bin 1454982240
+EN andgate NULL "C:/Users/Gabriel Santos/ULA/AndGate.vhd" sub00/vhpl08 1455541683
+AR fa faarchitecture "C:/Users/Gabriel Santos/ULA/FA.vhd" sub00/vhpl01 1455541664
+AR comparadormaiorcompleto comparadormaiorcompletoarchitecture "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vhd" sub00/vhpl07 1454976436
+EN mut NULL "C:/Users/Gabriel Santos/ULA/Mut.vhd" sub00/vhpl24 1455541661
+AR c carchitecture "C:/Users/Gabriel Santos/ULA/c.vhd" sub00/vhpl33 1455541670
+AR xorgate behavioral "C:/Users/Gabriel Santos/ULA/XorGate.vhd" sub00/vhpl11 1454719946
+MO FA_MUSER_SomaSubC2B NULL SomaSubC2B.vf vlg6A/_f_a___m_u_s_e_r___soma_sub_c2_b.bin 1454832907
+AR xorgate xorgatearchitecture "C:/Users/Gabriel Santos/ULA/XorGate.vhd" sub00/vhpl18 1455541686
+AR display displayarchitecture "C:/Users/Gabriel Santos/ULA/Display.vhd" sub00/vhpl45 1455541696
+EN ulacompleta NULL "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" sub00/vhpl46 1455541697
+EN testesscb NULL "C:/Users/Gabriel Santos/ULA/TesteSSCB.vhd" sub00/vhpl19 1454891599
+AR mut mutarchitecture "C:/Users/Gabriel Santos/ULA/Mut.vhd" sub00/vhpl25 1455541662
+AR h harchitecture "C:/Users/Gabriel Santos/ULA/h.vhd" sub00/vhpl43 1455541680
+AR ulacompleta ulacompletaarchitecture "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" sub00/vhpl47 1455541698
+MO SomaSubC2B NULL SomaSubC2B.vf vlg55/_soma_sub_c2_b.bin 1454832907
+EN mux41 NULL "C:/Users/Gabriel Santos/ULA/Mux41.vhd" sub00/vhpl20 1455541687
+MO ComparadorMaiorS_MUSER_ComparadorMaiorCompleto NULL ComparadorMaiorCompleto.vf vlg00/_comparador_maior_s___m_u_s_e_r___comparador_maior_completo.bin 1455541659
+AR e earchitecture "C:/Users/Gabriel Santos/ULA/e.vhd" sub00/vhpl37 1455541674

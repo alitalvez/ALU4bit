@@ -1,0 +1,4 @@
+verilog work "FA.vf"
+vhdl work "SomaSubC2B.vhd"
+vhdl work "teste2.vhd"
+verilog work "C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v"

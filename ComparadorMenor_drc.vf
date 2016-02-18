@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ComparadorMenor_drc.vf
+// /___/   /\     Timestamp : 02/08/2016 23:35:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog ComparadorMenor_drc.vf -w "C:/Users/Gabriel Santos/ULA/ComparadorMenor.sch"
+//Design Name: ComparadorMenor
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ComparadorMenor(A, 
+                       B, 
+                       S);
+
+    input A;
+    input B;
+   output S;
+   
+   wire XLXN_3;
+   wire XLXN_4;
+   
+   AND2  XLXI_3 (.I0(XLXN_3), 
+                .I1(XLXN_4), 
+                .O(S));
+   INV  XLXI_4 (.I(A), 
+               .O(XLXN_4));
+   INV  XLXI_5 (.I(B), 
+               .O(XLXN_3));
+endmodule

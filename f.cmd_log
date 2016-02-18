@@ -1,0 +1,4 @@
+vhdtdtfi -lib work f.vhd -prj ULA -o f.spl -module f -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl f.spl {C:/Users/Gabriel Santos/ULA/f.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog f_drc.vf -w {C:/Users/Gabriel Santos/ULA/f.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym f {C:/Users/Gabriel Santos/ULA/f.sch} {C:/Users/Gabriel Santos/ULA/f.sym} 

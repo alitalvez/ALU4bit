@@ -1,0 +1,117 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mux41.vf
+// /___/   /\     Timestamp : 02/08/2016 23:21:13
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xa9500xl -verilog "C:/Users/Gabriel Santos/ULA/Mux41.vf" -w "C:/Users/Gabriel Santos/ULA/Mux41.sch"
+//Design Name: Mux41
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mut_MUSER_Mux41(A0, 
+                       A1, 
+                       A2, 
+                       A3, 
+                       S0, 
+                       S1, 
+                       Saida);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input S0;
+    input S1;
+   output Saida;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   
+   AND3B2  XLXI_1 (.I0(S1), 
+                  .I1(S0), 
+                  .I2(A0), 
+                  .O(XLXN_1));
+   AND3B1  XLXI_2 (.I0(S0), 
+                  .I1(S1), 
+                  .I2(A1), 
+                  .O(XLXN_2));
+   AND3B1  XLXI_3 (.I0(S1), 
+                  .I1(S0), 
+                  .I2(A2), 
+                  .O(XLXN_3));
+   AND3  XLXI_4 (.I0(S1), 
+                .I1(S0), 
+                .I2(A3), 
+                .O(XLXN_4));
+   OR4  XLXI_5 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .I2(XLXN_2), 
+               .I3(XLXN_1), 
+               .O(Saida));
+endmodule
+`timescale 1ns / 1ps
+
+module Mux41(A, 
+             B, 
+             C, 
+             S, 
+             Z);
+
+    input [3:0] A;
+    input [3:0] B;
+    input [3:0] C;
+    input [2:0] S;
+   output [3:0] Z;
+   
+   wire XLXN_44;
+   wire XLXN_50;
+   wire XLXN_57;
+   wire XLXN_63;
+   
+   Mut_MUSER_Mux41  XLXI_16 (.A0(A[0]), 
+                            .A1(B[0]), 
+                            .A2(C[0]), 
+                            .A3(XLXN_44), 
+                            .S0(S[0]), 
+                            .S1(S[1]), 
+                            .Saida(Z[0]));
+   Mut_MUSER_Mux41  XLXI_17 (.A0(A[1]), 
+                            .A1(B[1]), 
+                            .A2(C[1]), 
+                            .A3(XLXN_50), 
+                            .S0(S[0]), 
+                            .S1(S[1]), 
+                            .Saida(Z[1]));
+   Mut_MUSER_Mux41  XLXI_18 (.A0(A[2]), 
+                            .A1(B[2]), 
+                            .A2(C[2]), 
+                            .A3(XLXN_57), 
+                            .S0(S[0]), 
+                            .S1(S[1]), 
+                            .Saida(Z[2]));
+   Mut_MUSER_Mux41  XLXI_19 (.A0(A[3]), 
+                            .A1(B[3]), 
+                            .A2(C[3]), 
+                            .A3(XLXN_63), 
+                            .S0(S[0]), 
+                            .S1(S[1]), 
+                            .Saida(Z[3]));
+   GND  XLXI_20 (.G(XLXN_44));
+   GND  XLXI_21 (.G(XLXN_50));
+   GND  XLXI_22 (.G(XLXN_57));
+   GND  XLXI_23 (.G(XLXN_63));
+endmodule

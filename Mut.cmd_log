@@ -1,0 +1,8 @@
+sch2sym -intstyle ise -family xa9500xl -refsym Mut {C:/Users/Gabriel Santos/ULA/Mut.sch} {C:/Users/Gabriel Santos/ULA/Mut.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mut_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mut.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mut {C:/Users/Gabriel Santos/ULA/Mut.sch} {C:/Users/Gabriel Santos/ULA/Mut.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mut_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mut.sch} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mut.vf -w {C:/Users/Gabriel Santos/ULA/Mut.sch} 
+sch2verilog -intstyle ise -family xa9500xl -tionly {} -tiext tfi -w {C:/Users/Gabriel Santos/ULA/Mut.sch} Mut.tfi 
+sch2hdl -intstyle ise -family xa9500xl -verilog Mut_drc.vf -w {C:/Users/Gabriel Santos/ULA/Mut.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Mut {C:/Users/Gabriel Santos/ULA/Mut.sch} {C:/Users/Gabriel Santos/ULA/Mut.sym} 

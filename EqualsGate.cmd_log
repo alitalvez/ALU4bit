@@ -1,0 +1,10 @@
+vhdtdtfi -lib work EqualsGate.vhd -prj ULA -o EqualsGate.spl -module EqualsGate -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl EqualsGate.spl {C:/Users/Gabriel Santos/ULA/EqualsGate.sym} 
+vhdtdtfi -lib work Equals.vhd -lib work EqualsGate.vhd -prj ULA -o EqualsGate.spl -module EqualsGate -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl EqualsGate.spl {C:/Users/Gabriel Santos/ULA/EqualsGate.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym EqualsGate {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} {C:/Users/Gabriel Santos/ULA/EqualsGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog EqualsGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} 
+sch2hdl -intstyle ise -family xa9500xl -verilog EqualsGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym EqualsGate {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} {C:/Users/Gabriel Santos/ULA/EqualsGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog EqualsGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym EqualsGate {C:/Users/Gabriel Santos/ULA/EqualsGate.sch} {C:/Users/Gabriel Santos/ULA/EqualsGate.sym} 

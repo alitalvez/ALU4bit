@@ -1,0 +1,7 @@
+[Inputs]
+Cin
+=A[3:0]=
+=B[3:0]=
+[Outputs]
+S
+[BiDir]

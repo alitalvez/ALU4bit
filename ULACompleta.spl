@@ -1,0 +1,15 @@
+[Inputs]
+=A[3:0]=
+=B[3:0]=
+=S[2:0]=
+[Outputs]
+Comp
+aa
+bb
+cc
+dd
+ee
+ff
+gg
+hh
+[BiDir]

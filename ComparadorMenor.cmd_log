@@ -1,0 +1,6 @@
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMenor_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMenor {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sym} 
+vhdtdtfi -lib work ComparadorMenor.vhd -prj ULA -o ComparadorMenor.spl -module ComparadorMenor -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl ComparadorMenor.spl {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMenor_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMenor {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMenor.sym} 

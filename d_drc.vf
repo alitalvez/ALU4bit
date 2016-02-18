@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : d_drc.vf
+// /___/   /\     Timestamp : 02/10/2016 02:44:11
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog d_drc.vf -w "C:/Users/Gabriel Santos/ULA/d.sch"
+//Design Name: d
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module d(A, 
+         C, 
+         D, 
+         E, 
+         dOut);
+
+    input A;
+    input C;
+    input D;
+    input E;
+   output dOut;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_19;
+   wire XLXN_21;
+   wire XLXN_22;
+   
+   OR5  XLXI_1 (.I0(XLXN_1), 
+               .I1(XLXN_2), 
+               .I2(XLXN_3), 
+               .I3(XLXN_5), 
+               .I4(A), 
+               .O(dOut));
+   AND2  XLXI_2 (.I0(XLXN_22), 
+                .I1(XLXN_21), 
+                .O(XLXN_5));
+   AND2  XLXI_3 (.I0(D), 
+                .I1(XLXN_21), 
+                .O(XLXN_3));
+   AND2  XLXI_4 (.I0(XLXN_22), 
+                .I1(D), 
+                .O(XLXN_2));
+   AND3  XLXI_5 (.I0(C), 
+                .I1(E), 
+                .I2(XLXN_19), 
+                .O(XLXN_1));
+   INV  XLXI_6 (.I(E), 
+               .O(XLXN_22));
+   INV  XLXI_7 (.I(D), 
+               .O(XLXN_19));
+   INV  XLXI_8 (.I(C), 
+               .O(XLXN_21));
+endmodule

@@ -1,0 +1,9 @@
+MODULE ComparadorMaiorCompleto
+	SUBMODULE ComparadorMaior
+		INSTANCE XLXI_1
+	SUBMODULE ComparadorMaior
+		INSTANCE XLXI_2
+	SUBMODULE ComparadorMaior
+		INSTANCE XLXI_3
+	SUBMODULE ComparadorMaiorS
+		INSTANCE XLXI_6

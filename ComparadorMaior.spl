@@ -1,0 +1,7 @@
+[Inputs]
+a
+b
+cin
+[Outputs]
+aMAIORb
+[BiDir]

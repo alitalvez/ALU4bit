@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="1" owner="projectmgr" name="ULA" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/ComparadorMaiorCompleto</ClosedNode>
+         <ClosedNode>/ComparadorMaiorCompleto - ComparadorMaiorCompletoArchitecture</ClosedNode>
+         <ClosedNode>/Display</ClosedNode>
+         <ClosedNode>/Display - DisplayArchitecture</ClosedNode>
+         <ClosedNode>/EqualsGate</ClosedNode>
+         <ClosedNode>/EqualsGate - Behavioral</ClosedNode>
+         <ClosedNode>/Mux41</ClosedNode>
+         <ClosedNode>/Mux41 - Mux41Architecture</ClosedNode>
+         <ClosedNode>/SomaSubC2B</ClosedNode>
+         <ClosedNode>/SomaSubC2B - SomaSubC2BArchitecture</ClosedNode>
+         <ClosedNode>/TesteSSCB - behavior</ClosedNode>
+         <ClosedNode>/ULA</ClosedNode>
+         <ClosedNode>/ULA - ULAArchitecture</ClosedNode>
+         <ClosedNode>/ULACompleta</ClosedNode>
+         <ClosedNode>/ULACompleta - ULACompletaArchitecture</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ULACompleta - ULACompletaArchitecture (C:/Users/Gabriel Santos/ULA/ULACompleta.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000193000000020000000000000000000000000000000064ffffffff000000810000000000000002000001930000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ULACompleta - ULACompletaArchitecture (C:/Users/Gabriel Santos/ULA/ULACompleta.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000102000000010000000100000000000000000000000064ffffffff000000810000000000000001000001020000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes/>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ac0000000100000000000000440000000100000000000000660000000100000000000001270000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AndGate.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes/>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000102000000010001000100000000000000000000000064ffffffff000000810000000000000001000001020000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Display.sch</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/ComparadorMaiorCompleto</ClosedNode>
+         <ClosedNode>/ComparadorMaiorCompleto - ComparadorMaiorCompletoArchitecture</ClosedNode>
+         <ClosedNode>/Display</ClosedNode>
+         <ClosedNode>/EqualsGate</ClosedNode>
+         <ClosedNode>/Mux41</ClosedNode>
+         <ClosedNode>/Mux41 - Mux41Architecture</ClosedNode>
+         <ClosedNode>/SomaSubC2B</ClosedNode>
+         <ClosedNode>/SomaSubC2B_SomaSubC2B_sch_tb - behavioral</ClosedNode>
+         <ClosedNode>/TestCM - behavior</ClosedNode>
+         <ClosedNode>/TestComMaior - behavior</ClosedNode>
+         <ClosedNode>/TestComMaiorBit - behavior</ClosedNode>
+         <ClosedNode>/TesteSSCB - behavior</ClosedNode>
+         <ClosedNode>/ULA</ClosedNode>
+         <ClosedNode>/ULA/XLXI_2 - ComparadorMaiorCompleto</ClosedNode>
+         <ClosedNode>/ULA/XLXI_3 - SomaSubC2B</ClosedNode>
+         <ClosedNode>/ULA/XLXI_3 - SomaSubC2B - SomaSubC2BArchitecture</ClosedNode>
+         <ClosedNode>/ULA/XLXI_6 - EqualsGate - Behavioral</ClosedNode>
+         <ClosedNode>/ULA_ULA_sch_tb - behavioral</ClosedNode>
+         <ClosedNode>/testULAFULL - behavior</ClosedNode>
+         <ClosedNode>/testbench - behavior</ClosedNode>
+         <ClosedNode>/testbench - behavior/uut - ComparadorMaiorCompleto</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>testULAFULL - behavior (C:/Users/Gabriel Santos/ULA/TestULAFull.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000253000000020000000000000000000000000000000064ffffffff000000810000000000000002000002530000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>testULAFULL - behavior (C:/Users/Gabriel Santos/ULA/TestULAFull.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Update All Schematic Files</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Update All Schematic Files</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000010c0000009001000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

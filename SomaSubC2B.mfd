@@ -1,0 +1,62 @@
+MDF Database:  version 1.0
+MDF_INFO | SomaSubC2B | XA9536XL-15-VQ44
+MACROCELL | 1 | 13 | overflow_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 0
+EQ | 1 | 
+   overflow = Gnd;
+
+MACROCELL | 0 | 10 | s_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | s1  | b<0>  | a<0>
+INPUTP | 3 | 42 | 7 | 37
+EQ | 3 | 
+   s<0> = s1 & b<0>
+	# b<0> & !a<0>
+	# !s1 & !b<0> & a<0>;
+
+MACROCELL | 1 | 1 | s_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 4 | s1  | a<1>  | b<1>  | s0
+INPUTP | 4 | 42 | 34 | 9 | 45
+EQ | 4 | 
+   s<1> = s1 & s0 & !b<1>
+	# s1 & !s0 & b<1>
+	# !s1 & a<1> & !b<1>
+	# !s1 & !a<1> & b<1>;
+
+MACROCELL | 1 | 8 | s_2_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 4 | s1  | a<2>  | b<2>  | s0
+INPUTP | 4 | 42 | 33 | 46 | 45
+EQ | 4 | 
+   s<2> = s1 & s0 & !b<2>
+	# s1 & !s0 & b<2>
+	# !s1 & a<2> & !b<2>
+	# !s1 & !a<2> & b<2>;
+
+MACROCELL | 0 | 1 | s_3_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 4 | s1  | b<3>  | a<3>  | s0
+INPUTP | 4 | 42 | 47 | 6 | 45
+EQ | 4 | 
+   s<3> = s1 & s0 & !b<3>
+	# s1 & !s0 & b<3>
+	# !s1 & b<3> & !a<3>
+	# !s1 & !b<3> & a<3>;
+
+PIN | s1 | 64 | 0 | N/A | 42 | 4 | 0 | 10 | 1 | 1 | 1 | 8 | 0 | 1
+PIN | s0 | 64 | 0 | N/A | 45 | 3 | 1 | 1 | 1 | 8 | 0 | 1
+PIN | b<0> | 64 | 0 | N/A | 7 | 1 | 0 | 10
+PIN | a<0> | 64 | 0 | N/A | 37 | 1 | 0 | 10
+PIN | a<1> | 64 | 0 | N/A | 34 | 1 | 1 | 1
+PIN | b<1> | 64 | 0 | N/A | 9 | 1 | 1 | 1
+PIN | a<2> | 64 | 0 | N/A | 33 | 1 | 1 | 8
+PIN | b<2> | 64 | 0 | N/A | 46 | 1 | 1 | 8
+PIN | b<3> | 64 | 0 | N/A | 47 | 1 | 0 | 1
+PIN | a<3> | 64 | 0 | N/A | 6 | 1 | 0 | 1
+PIN | overflow | 536871040 | 0 | N/A | 35
+PIN | s<0> | 536871040 | 0 | N/A | 18
+PIN | s<1> | 536871040 | 0 | N/A | 5
+PIN | s<2> | 536871040 | 0 | N/A | 44
+PIN | s<3> | 536871040 | 0 | N/A | 8

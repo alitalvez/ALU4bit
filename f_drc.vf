@@ -1,0 +1,75 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : f_drc.vf
+// /___/   /\     Timestamp : 02/10/2016 02:44:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog f_drc.vf -w "C:/Users/Gabriel Santos/ULA/f.sch"
+//Design Name: f
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module f(A, 
+         B, 
+         C, 
+         D, 
+         E, 
+         fOut);
+
+    input A;
+    input B;
+    input C;
+    input D;
+    input E;
+   output fOut;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_13;
+   wire XLXN_15;
+   wire XLXN_17;
+   wire XLXN_19;
+   
+   OR5  XLXI_1 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .I2(XLXN_2), 
+               .I3(XLXN_1), 
+               .I4(A), 
+               .O(fOut));
+   AND2  XLXI_2 (.I0(XLXN_19), 
+                .I1(XLXN_15), 
+                .O(XLXN_1));
+   AND3  XLXI_3 (.I0(XLXN_17), 
+                .I1(C), 
+                .I2(XLXN_19), 
+                .O(XLXN_2));
+   AND3  XLXI_4 (.I0(C), 
+                .I1(XLXN_15), 
+                .I2(XLXN_17), 
+                .O(XLXN_3));
+   AND3  XLXI_5 (.I0(D), 
+                .I1(B), 
+                .I2(XLXN_13), 
+                .O(XLXN_4));
+   INV  XLXI_6 (.I(C), 
+               .O(XLXN_13));
+   INV  XLXI_7 (.I(E), 
+               .O(XLXN_15));
+   INV  XLXI_8 (.I(B), 
+               .O(XLXN_17));
+   INV  XLXI_9 (.I(D), 
+               .O(XLXN_19));
+endmodule

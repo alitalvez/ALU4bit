@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family xa9500xl -verilog Display_drc.vf -w {C:/Users/Gabriel Santos/ULA/Display.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Display {C:/Users/Gabriel Santos/ULA/Display.sch} {C:/Users/Gabriel Santos/ULA/Display.sym} 
+vhdtdtfi -lib work h.vhd -lib work g.vhd -lib work f.vhd -lib work e.vhd -lib work d.vhd -lib work c.vhd -lib work b.vhd -lib work a.vhd -lib work Display.vhd -prj ULA -o Display.spl -module Display -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl Display.spl {C:/Users/Gabriel Santos/ULA/Display.sym} 

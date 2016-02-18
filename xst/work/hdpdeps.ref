@@ -1,0 +1,126 @@
+V3 93
+FL "C:/Users/Gabriel Santos/ULA/a.vhd" 2016/02/09.16:56:47 M.63c
+EN work/a 1455541665 FL "C:/Users/Gabriel Santos/ULA/a.vhd" PB ieee/std_logic_1164 1277201847
+AR work/a/aArchitecture 1455541666 \
+      FL "C:/Users/Gabriel Santos/ULA/a.vhd" EN work/a 1455541665
+FL "C:/Users/Gabriel Santos/ULA/AndGate.vhd" 2016/02/05.22:44:26 M.63c
+EN work/AndGate 1455541683 FL "C:/Users/Gabriel Santos/ULA/AndGate.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/AndGate/AndGatearchitecture 1455541684 \
+      FL "C:/Users/Gabriel Santos/ULA/AndGate.vhd" EN work/AndGate 1455541683
+FL "C:/Users/Gabriel Santos/ULA/b.vhd" 2016/02/09.17:12:38 M.63c
+EN work/b 1455541667 FL "C:/Users/Gabriel Santos/ULA/b.vhd" PB ieee/std_logic_1164 1277201847
+AR work/b/bArchitecture 1455541668 \
+      FL "C:/Users/Gabriel Santos/ULA/b.vhd" EN work/b 1455541667
+FL "C:/Users/Gabriel Santos/ULA/c.vhd" 2016/02/09.17:25:30 M.63c
+EN work/c 1455541669 FL "C:/Users/Gabriel Santos/ULA/c.vhd" PB ieee/std_logic_1164 1277201847
+AR work/c/cArchitecture 1455541670 \
+      FL "C:/Users/Gabriel Santos/ULA/c.vhd" EN work/c 1455541669
+FL "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" 2016/02/08.23:05:44 M.63c
+EN work/ComparadorMaior 1455541699 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" PB ieee/std_logic_1164 1277201847
+AR work/ComparadorMaior/ComparadorMaiorArchitecture 1455541700 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" \
+      EN work/ComparadorMaior 1455541699
+FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vhd" 2016/02/08.20:22:09 M.63c
+EN work/ComparadorMaiorCompleto 1454976435 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/ComparadorMaiorCompleto/ComparadorMaiorCompletoArchitecture 1454976436 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vhd" \
+      EN work/ComparadorMaiorCompleto 1454976435 CP ComparadorMaior
+FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" 2016/02/08.23:15:00 M.63c
+EN work/ComparadorMaiorS 1455541701 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/ComparadorMaiorS/ComparadorMaiorSArchitecture 1455541702 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" \
+      EN work/ComparadorMaiorS 1455541701
+FL "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" 2016/02/07.05:35:10 M.63c
+EN work/ComparadorMenor 1455541691 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" PB ieee/std_logic_1164 1277201847
+AR work/ComparadorMenor/ComparadorMenorArchitecture 1455541692 \
+      FL "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" \
+      EN work/ComparadorMenor 1455541691
+FL "C:/Users/Gabriel Santos/ULA/d.vhd" 2016/02/09.17:40:23 M.63c
+EN work/d 1455541671 FL "C:/Users/Gabriel Santos/ULA/d.vhd" PB ieee/std_logic_1164 1277201847
+AR work/d/dArchitecture 1455541672 \
+      FL "C:/Users/Gabriel Santos/ULA/d.vhd" EN work/d 1455541671
+FL "C:/Users/Gabriel Santos/ULA/Display.vhd" 2016/02/10.03:09:03 M.63c
+EN work/Display 1455541695 FL "C:/Users/Gabriel Santos/ULA/Display.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/Display/DisplayArchitecture 1455541696 \
+      FL "C:/Users/Gabriel Santos/ULA/Display.vhd" EN work/Display 1455541695 CP a \
+      CP b CP c CP d CP e CP f CP g CP h
+FL "C:/Users/Gabriel Santos/ULA/e.vhd" 2016/02/09.17:48:10 M.63c
+EN work/e 1455541673 FL "C:/Users/Gabriel Santos/ULA/e.vhd" PB ieee/std_logic_1164 1277201847
+AR work/e/eArchitecture 1455541674 \
+      FL "C:/Users/Gabriel Santos/ULA/e.vhd" EN work/e 1455541673
+FL "C:/Users/Gabriel Santos/ULA/Equals.vhd" 2016/02/07.05:10:44 M.63c
+EN work/Equals 1455541659 FL "C:/Users/Gabriel Santos/ULA/Equals.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/Equals/EqualsArchitecture 1455541660 \
+      FL "C:/Users/Gabriel Santos/ULA/Equals.vhd" EN work/Equals 1455541659
+FL "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" 2016/02/08.23:33:29 M.63c
+EN work/EqualsGate 1455541689 FL "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/EqualsGate/Behavioral 1455541690 \
+      FL "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" EN work/EqualsGate 1455541689 \
+      CP Equals
+FL "C:/Users/Gabriel Santos/ULA/f.vhd" 2016/02/10.02:27:38 M.63c
+EN work/f 1455541675 FL "C:/Users/Gabriel Santos/ULA/f.vhd" PB ieee/std_logic_1164 1277201847
+AR work/f/fArchitecture 1455541676 \
+      FL "C:/Users/Gabriel Santos/ULA/f.vhd" EN work/f 1455541675
+FL "C:/Users/Gabriel Santos/ULA/FA.vhd" 2016/02/05.16:57:40 M.63c
+EN work/FA 1455541663 FL "C:/Users/Gabriel Santos/ULA/FA.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/FA/FAArchitecture 1455541664 \
+      FL "C:/Users/Gabriel Santos/ULA/FA.vhd" EN work/FA 1455541663
+FL "C:/Users/Gabriel Santos/ULA/g.vhd" 2016/02/10.02:38:57 M.63c
+EN work/g 1455541677 FL "C:/Users/Gabriel Santos/ULA/g.vhd" PB ieee/std_logic_1164 1277201847
+AR work/g/gArchitecture 1455541678 \
+      FL "C:/Users/Gabriel Santos/ULA/g.vhd" EN work/g 1455541677
+FL "C:/Users/Gabriel Santos/ULA/h.vhd" 2016/02/10.02:41:47 M.63c
+EN work/h 1455541679 FL "C:/Users/Gabriel Santos/ULA/h.vhd" PB ieee/std_logic_1164 1277201847
+AR work/h/hArchitecture 1455541680 \
+      FL "C:/Users/Gabriel Santos/ULA/h.vhd" EN work/h 1455541679
+FL "C:/Users/Gabriel Santos/ULA/Mut.vhd" 2016/02/09.00:08:16 M.63c
+EN work/Mut 1455541661 FL "C:/Users/Gabriel Santos/ULA/Mut.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/Mut/MutArchitecture 1455541662 \
+      FL "C:/Users/Gabriel Santos/ULA/Mut.vhd" EN work/Mut 1455541661
+FL "C:/Users/Gabriel Santos/ULA/Mux41.vhd" 2016/02/09.15:57:51 M.63c
+EN work/Mux41 1455541687 FL "C:/Users/Gabriel Santos/ULA/Mux41.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/Mux41/Mux41Architecture 1455541688 \
+      FL "C:/Users/Gabriel Santos/ULA/Mux41.vhd" EN work/Mux41 1455541687 CP Mut
+FL "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" 2016/02/07.06:06:24 M.63c
+EN work/SomaSubC2B 1455541681 FL "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/SomaSubC2B/SomaSubC2BArchitecture 1455541682 \
+      FL "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" EN work/SomaSubC2B 1455541681 \
+      CP FA
+FL "C:/Users/Gabriel Santos/ULA/TesteSSCB.vhd" 2016/02/07.22:23:12 M.63c
+EN work/TesteSSCB 0 FL "C:/Users/Gabriel Santos/ULA/TesteSSCB.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/TesteSSCB/behavior 0 \
+      FL "C:/Users/Gabriel Santos/ULA/TesteSSCB.vhd" EN work/TesteSSCB 0 \
+      CP SomaSubC2B
+FL "C:/Users/Gabriel Santos/ULA/ULA.vhd" 2016/02/09.16:15:54 M.63c
+EN work/ULA 1455541693 FL "C:/Users/Gabriel Santos/ULA/ULA.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/ULA/ULAArchitecture 1455541694 \
+      FL "C:/Users/Gabriel Santos/ULA/ULA.vhd" EN work/ULA 1455541693 \
+      CP SomaSubC2B CP AndGate CP XorGate CP Mux41 CP ComparadorMaiorCompleto \
+      CP EqualsGate CP ComparadorMenor CP Mut
+FL "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" 2016/02/15.11:07:35 M.63c
+EN work/ULACompleta 1455541697 FL "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/ULACompleta/ULACompletaArchitecture 1455541698 \
+      FL "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" EN work/ULACompleta 1455541697 \
+      CP ULA CP Display
+FL "C:/Users/Gabriel Santos/ULA/XorGate.vhd" 2016/02/07.05:35:31 M.63c
+EN work/XorGate 1455541685 FL "C:/Users/Gabriel Santos/ULA/XorGate.vhd" \
+      PB ieee/std_logic_1164 1277201847
+AR work/XorGate/XorGateArchitecture 1455541686 \
+      FL "C:/Users/Gabriel Santos/ULA/XorGate.vhd" EN work/XorGate 1455541685

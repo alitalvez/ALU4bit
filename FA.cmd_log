@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family xa9500xl -refsym FA {C:/Users/Gabriel Santos/ULA/FA.sch} {C:/Users/Gabriel Santos/ULA/FA.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog FA_drc.vf -w {C:/Users/Gabriel Santos/ULA/FA.sch} 
+sch2hdl -intstyle ise -family xa9500xl -verilog FA_drc.vf -w {C:/Users/Gabriel Santos/ULA/FA.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym FA {C:/Users/Gabriel Santos/ULA/FA.sch} {C:/Users/Gabriel Santos/ULA/FA.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog FA_drc.vf -w {C:/Users/Gabriel Santos/ULA/FA.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym FA {C:/Users/Gabriel Santos/ULA/FA.sch} {C:/Users/Gabriel Santos/ULA/FA.sym} 

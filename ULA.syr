@@ -1,0 +1,361 @@
+Release 12.2 - xst M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: ULA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ULA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ULA"
+Output Format                      : NGC
+Target Device                      : Automotive 9500XL
+
+---- Source Options
+Top Module Name                    : ULA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Equals.vhd" in Library work.
+Architecture equalsarchitecture of Entity equals is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Mut.vhd" in Library work.
+Architecture mutarchitecture of Entity mut is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/FA.vhd" in Library work.
+Architecture faarchitecture of Entity fa is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" in Library work.
+Architecture somasubc2barchitecture of Entity somasubc2b is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/AndGate.vhd" in Library work.
+Architecture andgatearchitecture of Entity andgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/XorGate.vhd" in Library work.
+Architecture xorgatearchitecture of Entity xorgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Mux41.vhd" in Library work.
+Architecture mux41architecture of Entity mux41 is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" in Library work.
+Architecture behavioral of Entity equalsgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" in Library work.
+Architecture comparadormenorarchitecture of Entity comparadormenor is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ULA.vhd" in Library work.
+Entity <ula> compiled.
+Entity <ula> (Architecture <ulaarchitecture>) compiled.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" in Library work.
+Architecture comparadormaiorarchitecture of Entity comparadormaior is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" in Library work.
+Architecture comparadormaiorsarchitecture of Entity comparadormaiors is up to date.
+Compiling verilog file "ComparadorMaiorCompleto.vf" in library work
+Module <ComparadorMaiorS_MUSER_ComparadorMaiorCompleto> compiled
+Module <ComparadorMaior_MUSER_ComparadorMaiorCompleto> compiled
+Module <ComparadorMaiorCompleto> compiled
+No errors in compilation
+Analysis of file <"ULA.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <ULA> in library <work>.
+
+Analyzing hierarchy for module <ComparadorMaiorCompleto_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <AndGate_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <XorGate_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <EqualsGate_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <ComparadorMenor_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <Mux41_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <Mut_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <SomaSubC2B_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <ComparadorMaior_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <ComparadorMaiorS_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <Equals_MUSER_ULA> in library <work>.
+
+Analyzing hierarchy for module <FA_MUSER_ULA> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ULA>.
+Module <ULA> is correct for synthesis.
+ 
+Analyzing module <ComparadorMaiorCompleto_MUSER_ULA> in library <work>.
+Module <ComparadorMaiorCompleto_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <ComparadorMaior_MUSER_ULA> in library <work>.
+Module <ComparadorMaior_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <ComparadorMaiorS_MUSER_ULA> in library <work>.
+Module <ComparadorMaiorS_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <AndGate_MUSER_ULA> in library <work>.
+Module <AndGate_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <XorGate_MUSER_ULA> in library <work>.
+Module <XorGate_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <EqualsGate_MUSER_ULA> in library <work>.
+Module <EqualsGate_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <Equals_MUSER_ULA> in library <work>.
+Module <Equals_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <ComparadorMenor_MUSER_ULA> in library <work>.
+Module <ComparadorMenor_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <Mux41_MUSER_ULA> in library <work>.
+Module <Mux41_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <Mut_MUSER_ULA> in library <work>.
+Module <Mut_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <SomaSubC2B_MUSER_ULA> in library <work>.
+Module <SomaSubC2B_MUSER_ULA> is correct for synthesis.
+ 
+Analyzing module <FA_MUSER_ULA> in library <work>.
+Module <FA_MUSER_ULA> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <AndGate_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <AndGate_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <XorGate_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <XorGate_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <ComparadorMenor_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <ComparadorMenor_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <Mut_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <Mut_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <ComparadorMaior_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <ComparadorMaior_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <ComparadorMaiorS_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <ComparadorMaiorS_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <Equals_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <Equals_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <FA_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <FA_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <ComparadorMaiorCompleto_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <ComparadorMaiorCompleto_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <EqualsGate_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <EqualsGate_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <Mux41_MUSER_ULA>.
+    Related source file is "ULA.vf".
+WARNING:Xst:647 - Input <S<2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Mux41_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <SomaSubC2B_MUSER_ULA>.
+    Related source file is "ULA.vf".
+Unit <SomaSubC2B_MUSER_ULA> synthesized.
+
+
+Synthesizing Unit <ULA>.
+    Related source file is "ULA.vf".
+Unit <ULA> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ULA> ...
+
+Optimizing unit <AndGate_MUSER_ULA> ...
+
+Optimizing unit <XorGate_MUSER_ULA> ...
+
+Optimizing unit <ComparadorMenor_MUSER_ULA> ...
+
+Optimizing unit <Mut_MUSER_ULA> ...
+
+Optimizing unit <ComparadorMaior_MUSER_ULA> ...
+
+Optimizing unit <ComparadorMaiorS_MUSER_ULA> ...
+
+Optimizing unit <Equals_MUSER_ULA> ...
+
+Optimizing unit <FA_MUSER_ULA> ...
+
+Optimizing unit <ComparadorMaiorCompleto_MUSER_ULA> ...
+
+Optimizing unit <EqualsGate_MUSER_ULA> ...
+
+Optimizing unit <Mux41_MUSER_ULA> ...
+
+Optimizing unit <SomaSubC2B_MUSER_ULA> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ULA.ngr
+Top Level Output File Name         : ULA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : Automotive 9500XL
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 96
+#      AND2                        : 29
+#      AND3                        : 13
+#      GND                         : 4
+#      INV                         : 15
+#      OR2                         : 9
+#      OR3                         : 4
+#      OR4                         : 5
+#      XOR2                        : 17
+# IO Buffers                       : 16
+#      IBUF                        : 10
+#      OBUF                        : 6
+# Others                           : 15
+#      AND3B1                      : 10
+#      AND3B2                      : 5
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.74 secs
+ 
+--> 
+
+Total memory usage is 275668 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

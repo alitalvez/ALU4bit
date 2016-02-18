@@ -1,0 +1,12 @@
+vhdtdtfi -lib work ComparadorMaior.vhd -lib work ComparadorMaiorCompleto.vhd -prj ULA -o ComparadorMaiorCompleto.spl -module ComparadorMaiorCompleto -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl ComparadorMaiorCompleto.spl {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMaiorCompleto {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMaiorCompleto_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} 
+vhdtdtfi -lib work ComparadorMaiorCompleto.vhd -prj ULA -o ComparadorMaiorCompleto.spl -module ComparadorMaiorCompleto -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl ComparadorMaiorCompleto.spl {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMaiorCompleto {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMaiorCompleto_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMaiorCompleto {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMaiorCompleto_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym ComparadorMaiorCompleto {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog ComparadorMaiorCompleto_drc.vf -w {C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch} 

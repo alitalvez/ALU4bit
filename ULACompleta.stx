@@ -1,0 +1,84 @@
+Release 12.2 - xst M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Gabriel Santos/ULA/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Gabriel Santos/ULA/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Equals.vhd" in Library work.
+Architecture equalsarchitecture of Entity equals is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Mut.vhd" in Library work.
+Architecture mutarchitecture of Entity mut is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/FA.vhd" in Library work.
+Architecture faarchitecture of Entity fa is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/a.vhd" in Library work.
+Architecture aarchitecture of Entity a is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/b.vhd" in Library work.
+Architecture barchitecture of Entity b is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/c.vhd" in Library work.
+Architecture carchitecture of Entity c is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/d.vhd" in Library work.
+Architecture darchitecture of Entity d is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/e.vhd" in Library work.
+Architecture earchitecture of Entity e is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/f.vhd" in Library work.
+Architecture farchitecture of Entity f is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/g.vhd" in Library work.
+Architecture garchitecture of Entity g is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/h.vhd" in Library work.
+Architecture harchitecture of Entity h is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/SomaSubC2B.vhd" in Library work.
+Architecture somasubc2barchitecture of Entity somasubc2b is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/AndGate.vhd" in Library work.
+Architecture andgatearchitecture of Entity andgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/XorGate.vhd" in Library work.
+Architecture xorgatearchitecture of Entity xorgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Mux41.vhd" in Library work.
+Architecture mux41architecture of Entity mux41 is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/EqualsGate.vhd" in Library work.
+Architecture behavioral of Entity equalsgate is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMenor.vhd" in Library work.
+Architecture comparadormenorarchitecture of Entity comparadormenor is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ULA.vhd" in Library work.
+Architecture ulaarchitecture of Entity ula is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/Display.vhd" in Library work.
+Architecture displayarchitecture of Entity display is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ULACompleta.vhd" in Library work.
+Entity <ulacompleta> compiled.
+Entity <ULACompleta> (Architecture <ULACompletaArchitecture>) compiled.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMaior.vhd" in Library work.
+Architecture comparadormaiorarchitecture of Entity comparadormaior is up to date.
+Compiling vhdl file "C:/Users/Gabriel Santos/ULA/ComparadorMaiorS.vhd" in Library work.
+Architecture comparadormaiorsarchitecture of Entity comparadormaiors is up to date.
+Compiling verilog file "ComparadorMaiorCompleto.vf" in library work
+Module <ComparadorMaiorS_MUSER_ComparadorMaiorCompleto> compiled
+Module <ComparadorMaior_MUSER_ComparadorMaiorCompleto> compiled
+Module <ComparadorMaiorCompleto> compiled
+No errors in compilation
+Analysis of file <"ULACompleta.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> 
+
+Total memory usage is 254372 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

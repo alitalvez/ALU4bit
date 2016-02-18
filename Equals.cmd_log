@@ -1,0 +1,8 @@
+sch2sym -intstyle ise -family xa9500xl -refsym Equals {C:/Users/Gabriel Santos/ULA/Equals.sch} {C:/Users/Gabriel Santos/ULA/Equals.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Equals_drc.vf -w {C:/Users/Gabriel Santos/ULA/Equals.sch} 
+vhdtdtfi -lib work Equals.vhd -prj ULA -o Equals.spl -module Equals -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl Equals.spl {C:/Users/Gabriel Santos/ULA/Equals.sym} 
+sch2sym -intstyle ise -family xa9500xl -refsym Equals {C:/Users/Gabriel Santos/ULA/Equals.sch} {C:/Users/Gabriel Santos/ULA/Equals.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Equals_drc.vf -w {C:/Users/Gabriel Santos/ULA/Equals.sch} 
+sch2hdl -intstyle ise -family xa9500xl -verilog Equals_drc.vf -w {C:/Users/Gabriel Santos/ULA/Equals.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym Equals {C:/Users/Gabriel Santos/ULA/Equals.sch} {C:/Users/Gabriel Santos/ULA/Equals.sym} 

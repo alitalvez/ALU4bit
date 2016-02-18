@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family xa9500xl -refsym AndGate {C:/Users/Gabriel Santos/ULA/AndGate.sch} {C:/Users/Gabriel Santos/ULA/AndGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog AndGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/AndGate.sch} 
+vhdtdtfi -lib work AndGate.vhd -prj ULA -o AndGate.spl -module AndGate -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl AndGate.spl {C:/Users/Gabriel Santos/ULA/AndGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog AndGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/AndGate.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym AndGate {C:/Users/Gabriel Santos/ULA/AndGate.sch} {C:/Users/Gabriel Santos/ULA/AndGate.sym} 
+vhdtdtfi -lib work AndGate.vhd -prj ULA -o AndGate.spl -module AndGate -template C:/Xilinx/12.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl AndGate.spl {C:/Users/Gabriel Santos/ULA/AndGate.sym} 
+sch2hdl -intstyle ise -family xa9500xl -verilog AndGate_drc.vf -w {C:/Users/Gabriel Santos/ULA/AndGate.sch} 
+sch2sym -intstyle ise -family xa9500xl -refsym AndGate {C:/Users/Gabriel Santos/ULA/AndGate.sch} {C:/Users/Gabriel Santos/ULA/AndGate.sym} 

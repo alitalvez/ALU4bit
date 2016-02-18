@@ -1,0 +1,119 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ComparadorMaiorCompleto.vf
+// /___/   /\     Timestamp : 02/08/2016 23:37:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xa9500xl -verilog "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.vf" -w "C:/Users/Gabriel Santos/ULA/ComparadorMaiorCompleto.sch"
+//Design Name: ComparadorMaiorCompleto
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ComparadorMaiorS_MUSER_ComparadorMaiorCompleto(A, 
+                                                      B, 
+                                                      Cin, 
+                                                      Comp);
+
+    input A;
+    input B;
+    input Cin;
+   output Comp;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_31;
+   
+   AND2  XLXI_1 (.I0(Cin), 
+                .I1(XLXN_31), 
+                .O(XLXN_2));
+   AND2  XLXI_2 (.I0(B), 
+                .I1(XLXN_31), 
+                .O(XLXN_3));
+   AND2  XLXI_3 (.I0(B), 
+                .I1(Cin), 
+                .O(XLXN_4));
+   OR3  XLXI_4 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .I2(XLXN_2), 
+               .O(Comp));
+   INV  XLXI_5 (.I(A), 
+               .O(XLXN_31));
+endmodule
+`timescale 1ns / 1ps
+
+module ComparadorMaior_MUSER_ComparadorMaiorCompleto(a, 
+                                                     b, 
+                                                     cin, 
+                                                     aMAIORb);
+
+    input a;
+    input b;
+    input cin;
+   output aMAIORb;
+   
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_28;
+   wire XLXN_35;
+   
+   AND2  XLXI_3 (.I0(cin), 
+                .I1(XLXN_35), 
+                .O(XLXN_28));
+   AND2  XLXI_4 (.I0(XLXN_35), 
+                .I1(a), 
+                .O(XLXN_13));
+   AND2  XLXI_5 (.I0(cin), 
+                .I1(a), 
+                .O(XLXN_14));
+   OR3  XLXI_8 (.I0(XLXN_14), 
+               .I1(XLXN_13), 
+               .I2(XLXN_28), 
+               .O(aMAIORb));
+   INV  XLXI_15 (.I(b), 
+                .O(XLXN_35));
+endmodule
+`timescale 1ns / 1ps
+
+module ComparadorMaiorCompleto(A, 
+                               B, 
+                               Comp);
+
+    input [3:0] A;
+    input [3:0] B;
+   output Comp;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_5;
+   
+   ComparadorMaior_MUSER_ComparadorMaiorCompleto  XLXI_1 (.a(A[0]), 
+                                                         .b(B[0]), 
+                                                         .cin(XLXN_5), 
+                                                         .aMAIORb(XLXN_1));
+   ComparadorMaior_MUSER_ComparadorMaiorCompleto  XLXI_2 (.a(A[1]), 
+                                                         .b(B[1]), 
+                                                         .cin(XLXN_1), 
+                                                         .aMAIORb(XLXN_2));
+   ComparadorMaior_MUSER_ComparadorMaiorCompleto  XLXI_3 (.a(A[2]), 
+                                                         .b(B[2]), 
+                                                         .cin(XLXN_2), 
+                                                         .aMAIORb(XLXN_3));
+   GND  XLXI_5 (.G(XLXN_5));
+   ComparadorMaiorS_MUSER_ComparadorMaiorCompleto  XLXI_6 (.A(A[3]), 
+                                                          .B(B[3]), 
+                                                          .Cin(XLXN_3), 
+                                                          .Comp(Comp));
+endmodule

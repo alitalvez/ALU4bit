@@ -1,0 +1,29 @@
+Command line:
+   testULAFULL_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49965
+
+Tue Feb 16 11:22:01 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 824.639 Meg
+
+ Total Signals          : 351
+ Total Nets             : 135
+ Total Signal Drivers   : 113
+ Total Blocks           : 61
+ Total Primitive Blocks : 49
+ Total Processes        : 112
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 699
+Total Line Count : 101
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 824.639 Meg
+
+Tue Feb 16 11:22:29 2016
+

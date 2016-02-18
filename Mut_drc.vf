@@ -1,0 +1,65 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.2
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mut_drc.vf
+// /___/   /\     Timestamp : 02/09/2016 15:19:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family xa9500xl -verilog Mut_drc.vf -w "C:/Users/Gabriel Santos/ULA/Mut.sch"
+//Design Name: Mut
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mut(A0, 
+           A1, 
+           A2, 
+           A3, 
+           S0, 
+           S1, 
+           Saida);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input S0;
+    input S1;
+   output Saida;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   
+   AND3B2  XLXI_1 (.I0(S1), 
+                  .I1(S0), 
+                  .I2(A0), 
+                  .O(XLXN_1));
+   AND3B1  XLXI_2 (.I0(S0), 
+                  .I1(S1), 
+                  .I2(A1), 
+                  .O(XLXN_2));
+   AND3B1  XLXI_3 (.I0(S1), 
+                  .I1(S0), 
+                  .I2(A2), 
+                  .O(XLXN_3));
+   AND3  XLXI_4 (.I0(S1), 
+                .I1(S0), 
+                .I2(A3), 
+                .O(XLXN_4));
+   OR4  XLXI_5 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .I2(XLXN_2), 
+               .I3(XLXN_1), 
+               .O(Saida));
+endmodule

@@ -1,0 +1,13 @@
+[Inputs]
+Overflow
+=Z[3:0]=
+[Outputs]
+Aa
+Bb
+Cc
+Dd
+Ee
+Ff
+Gg
+Hh
+[BiDir]

@@ -1,0 +1,3 @@
+vhdl isim_temp "FA.vhd"
+vhdl isim_temp "SomaSubC2B.vhd"
+vhdl isim_temp "TesteSSCB.vhd"
